@@ -1,0 +1,60 @@
+.Supervisor {
+    background-color: hsl(0, 0%, 98%);
+    border-top: 3px solid hsl(180, 62%, 55%);
+    &__text {
+        font-size: 15px;
+        color:  hsl(234, 12%, 34%);
+       
+    }
+    &__icon {
+        width: 2.3rem;
+        height: 2.3rem;
+        grid-row: 1 / span 2;
+        transform: translateY(-1rem)
+    }
+
+}
+.Team-Builder {
+    background-color: hsl(0, 0%, 98%);
+    border-top: 3px solid hsl(0, 78%, 62%);
+    &__text {
+        font-size: 15px;
+        color:  hsl(234, 12%, 34%);
+    }
+    &__icon {
+        width: 2.3rem;
+        height: 2.3rem;
+        grid-row: 1 / span 2;
+        transform: translateY(-1rem)
+    }
+}
+
+.Karma {
+    background-color: hsl(0, 0%, 98%);
+    border-top: 3px solid hsl(34, 97%, 64%);
+    &__text {
+        font-size: 15px;
+        color:  hsl(234, 12%, 34%);
+    }
+    &__icon {
+        width: 2.3rem;
+        height: 2.3rem;
+        grid-row: 1 / span 2;
+        transform: translateY(-1rem)
+    }
+}
+.Calculator {
+    background-color: hsl(0, 0%, 98%);
+    border-top: 3px solid hsl(212, 86%, 64%);
+    &__text {
+        font-size: 15px;
+        color:  hsl(234, 12%, 34%);
+
+    }
+    &__icon {
+        width: 2.3rem;
+        height: 2.3rem;
+        grid-row: 1 / span 2;
+        transform: translateY(-1rem)
+    }
+}

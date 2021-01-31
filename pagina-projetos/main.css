@@ -1,0 +1,166 @@
+.heading-2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  font-style: normal;
+  line-height: 1;
+}
+
+.heading-2--dark {
+  color: #4c4e61;
+}
+
+.header__text {
+  color: #4c4e61;
+}
+
+.footer {
+  background-color: #a3a5ae;
+  grid-column: full-start / full-end;
+}
+
+.container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-grid {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: (300px)[3];
+      grid-template-columns: repeat(3, 300px);
+  -ms-grid-rows: (200px)[4];
+      grid-template-rows: repeat(4, 200px);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  width: 1440px;
+  height: auto;
+}
+
+.Supervisor {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2 / span 3;
+  -ms-grid-column: 1;
+  grid-column: 1 / 1;
+}
+
+.Team-Builder {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / span 2;
+  -ms-grid-column: 2;
+  grid-column: 2 / 2;
+}
+
+.Karma {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 4;
+  grid-row: 3 / span 4;
+  -ms-grid-column: 2;
+  grid-column: 2 / 2;
+}
+
+.Calculator {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2 / span 3;
+  -ms-grid-column: 3;
+  grid-column: 3 / 3;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.Supervisor {
+  background-color: #fafafa;
+  border-top: 3px solid #45d3d3;
+}
+
+.Supervisor__text {
+  font-size: 15px;
+  color: #4c4e61;
+}
+
+.Supervisor__icon {
+  width: 2.3rem;
+  height: 2.3rem;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / span 2;
+  -webkit-transform: translateY(-1rem);
+          transform: translateY(-1rem);
+}
+
+.Team-Builder {
+  background-color: #fafafa;
+  border-top: 3px solid #ea5353;
+}
+
+.Team-Builder__text {
+  font-size: 15px;
+  color: #4c4e61;
+}
+
+.Team-Builder__icon {
+  width: 2.3rem;
+  height: 2.3rem;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / span 2;
+  -webkit-transform: translateY(-1rem);
+          transform: translateY(-1rem);
+}
+
+.Karma {
+  background-color: #fafafa;
+  border-top: 3px solid #fcaf4a;
+}
+
+.Karma__text {
+  font-size: 15px;
+  color: #4c4e61;
+}
+
+.Karma__icon {
+  width: 2.3rem;
+  height: 2.3rem;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / span 2;
+  -webkit-transform: translateY(-1rem);
+          transform: translateY(-1rem);
+}
+
+.Calculator {
+  background-color: #fafafa;
+  border-top: 3px solid #549ef2;
+}
+
+.Calculator__text {
+  font-size: 15px;
+  color: #4c4e61;
+}
+
+.Calculator__icon {
+  width: 2.3rem;
+  height: 2.3rem;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / span 2;
+  -webkit-transform: translateY(-1rem);
+          transform: translateY(-1rem);
+}
+/*# sourceMappingURL=main.css.map */

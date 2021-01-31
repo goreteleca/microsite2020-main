@@ -1,0 +1,53 @@
+.header {
+   
+    &__text{
+        color:  hsl(234, 12%, 34%);
+       
+    }
+}
+
+.footer {
+    background-color: $color-Grayish-Blue;
+    grid-column: full-start / full-end; 
+}
+.container {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.container-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(4,200px);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    width: 1440px;
+    height: auto;
+    
+
+}
+.Supervisor {
+    grid-row: 2 / span 3;
+    grid-column: 1 / 1;
+   
+}
+.Team-Builder {
+    grid-row: 1 / span 2;
+    grid-column: 2 / 2;
+}
+
+.Karma {
+    grid-row: 3 / span 4;
+    grid-column: 2 / 2;
+}
+.Calculator {
+    grid-row: 2 / span 3;
+    grid-column: 3 / 3;
+}
+
+body {
+    background-color: $color-Very-Light-Gray;
+}
