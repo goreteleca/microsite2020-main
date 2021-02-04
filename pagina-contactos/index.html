@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Contact Page</title>
@@ -14,21 +15,129 @@
   </style>
 </head>
 <body>
+  <div class="img ">
+    <div class="img-1">
+      <h2 class="h2">IP addressa tracker</h2>
+      <input  class="texte "type="text"></input>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-square-fill" viewBox="0 0 20 20">
+        <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
+      </svg>
+    </div>
+    <div class=" itens iten-1">
+      <h5 class="h5">IP address</h5>
+      <h4 class="h4">192.212.174.101</h4>
+    </div>
+    <div class=" itens iten-2">
+      <h5 class="h5">location</h5>
+      <h4 class="h4">Brooklyn.NY
+        10001
+      </h4>
+    </div>
+    <div class=" itens iten-3">
+      <h5 class="h5">timezone</h5>
+      <h4 class="h4">UCT-05:00
+      </h4>
+    </div>
+    <div class=" itens iten-4">
+      <h5 class="h5">ISP</h5>
+      <h4 class="h4">SpaceX
+        Starlink
+      </h4>
+    </div>
+  </div>
+  <div class="img img-2">
+        <img src="images/mapa_grd.jpg" style="width: 500; height: 600;">
+        <div class="icon">
+          <img src="images/icon-location.svg">
+        </div>
+  </div>
+    
 
-  Contactos
 
-  (formulário de contacto)
-
-  Localização (coordenadas)
-  Morada
-  Email
-  Telefone
 
 
   <footer>
     <p class="attribution">
-      Coded by <a href="#">Nome do Aluno</a>.
+      Coded by <a href="#">Maria Gorete Freitas Leça </a>.
     </p>
   </footer>
+  <style>
+    .container {
+      display: grid;
+      grid-template-rows: repeat(1, 200px);
+      grid-template-columns: repeat(4, 200px);
+    }
+    .img{
+      background-image: url("images/pattern-bg.png");
+      display: grid;
+      grid-template-rows: repeat(2, 200px);
+      grid-template-columns: repeat(5, 200px);
+    
+    
+  
+    }
+    .itens {
+      padding: 30px ;
+      font-family: "Barlow Semi Condensed", sans-serif;
+      font-size: 18px;
+      border: hsl(0, 0%, 59%);
+      border-top: 5px;
+     
+    }
+    .img-1 {
+      grid-row: 1/1;
+      grid-column:3/5;
+    }
+    .iten-1{
+      background-color: #ffffff;
+      grid-row: 2/2;
+      grid-column:2/3;
+    }
+    .iten-2{
+      background-color: #ffffff;
+      grid-row: 2/2;
+      grid-column:3/4;
+    }
+    .iten-3{
+      background-color: #ffffff;
+      grid-row: 2/2;
+      grid-column:4/5;
+    }
+    .iten-4{
+      background-color: #ffffff;
+      grid-row: 2/2;
+      grid-column:5/5;
+    }
+    
+    
+    
+    .img-2 {
+      background-image: url("images/mapa_grd.jpg");
+      display: grid;
+      grid-template-rows: repeat(2, 200px);
+      grid-template-columns: repeat(4, 200px);
+    }
+    .icon {
+      align-items: center;
+      grid-row: 2/2;
+      grid-column:4/5;
+    }
+    .h5{
+      color: hsl(0, 0%, 59%);
+    }
+    .h4{
+      color:  hsl(0, 0%, 17%);
+    }
+    .h2{
+      color: #ffffff;
+    }
+    .texte{
+      font-size: 18px;
+      height: 20px;
+      width: 190px;
+      color:hsl(0, 0%, 59%);
+    }
+    
+  </style>
 </body>
 </html>
